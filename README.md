@@ -10,10 +10,10 @@ The dataset contains customer reviews along with a binary sentiment label indica
 
 ## Dataset Details
 The dataset consists of two columns:
-Review – The actual text of the review written by a customer.
-Liked – A binary target variable:
-1: The customer liked the food.
-0: The customer did not like the food.
+- Review – The actual text of the review written by a customer.
+- Liked – A binary target variable:
+    - 1: The customer liked the food.
+    - 0: The customer did not like the food.
 The dataset can be downloaded from here.
 
 ## Key Performance Indicators (KPIs)
@@ -24,15 +24,15 @@ Success in this project will be measured by:
 
 ## Exploratory Data Analysis (EDA) Guidelines
 To gain deeper insights, consider analyzing:
-Review Length & Sentiment: Are longer reviews more likely to be negative or positive?
-Frequent Keywords in Positive vs. Negative Reviews: Do certain words signal dissatisfaction (e.g., "cold," "slow," "expensive") while others indicate satisfaction 
+- Review Length & Sentiment: Are longer reviews more likely to be negative or positive?
+- Frequent Keywords in Positive vs. Negative Reviews: Do certain words signal dissatisfaction (e.g., "cold," "slow," "expensive") while others indicate satisfaction 
 (e.g., "delicious," "friendly," "cozy")?
-Mixed Sentiments: Are there reviews containing both positive and negative aspects, and how should they be classified?
+- Mixed Sentiments: Are there reviews containing both positive and negative aspects, and how should they be classified?
 
 ## Success Factors & Best Practices
 To build an effective sentiment analysis model, consider the following:
-Text Preprocessing: Cleaning and tokenizing text, removing stopwords, and handling misspellings.
-Feature Engineering: Using techniques like TF-IDF, word embeddings, or sentiment lexicons to improve model performance.
-Model Selection: Comparing traditional machine learning models like Logistic Regression or Decision Tree
-Business Application: Interpreting insights to suggest actionable improvements, such as menu adjustments, staff training, or service optimizations.
+- Text Preprocessing: Cleaning and tokenizing text, removing stopwords, and handling misspellings.
+- Feature Engineering: Using techniques like TF-IDF, word embeddings, or sentiment lexicons to improve model performance.
+- Model Selection: Comparing traditional machine learning models like Logistic Regression or Decision Tree
+- Business Application: Interpreting insights to suggest actionable improvements, such as menu adjustments, staff training, or service optimizations.
 By the end of this project, you will build a real-world sentiment analysis model, helping the restaurant turn customer feedback into valuable business strategies.
