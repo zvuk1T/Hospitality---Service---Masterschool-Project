@@ -13,3 +13,4 @@ rich==13.1.0
 requests==2.26.0
 tensorflow
 nltk
+dotenv==1.1.0
